@@ -1,0 +1,38 @@
+Objective of classification is to create model that best
+divides and separates our data.
+
+Example: We got some data points
+
+Classification: We have points that we know are pluses and points are minuses
+We need a model that can fit both of these groups. If we have a data point that is somewhere
+random, where will the group be? The computer should be able to assign the data to the specific point
+
+Usually: Classify based on proximity.
+- This is nearest neighbors. You are checking who are your closest points
+- You can have 3 dimensions, 4, 10, 1000 dimensions. Machine is able to classify it.
+
+K Nearest Neighbors
+- You decide what the number of K is
+- If K = 2, you find the 2 closest neighbors to K
+- If you have 2 points that are the closest, we will say this is a classified as +
+
+- Super simple algorithm, but K is a variable you should figure out
+- You need to avoid split vote.
+- K Nearest neighbors, you can get both accuracy in the model. Train and test the model
+- Each point can have a degree of confidence
+- Confidence in classification is different from Accuracy
+
+Downfall of K Nearest Neighbors:
+- We are using Euclidean distance to find the K nearest neighbor
+- We measure all the other points and find what is the closest 3?
+- On a large dataset, this is horrible
+- Whatever you do to speed this up, the larger the dataset, the worse this algorithm gets
+- SVM is much more efficient for classification
+- K nearest neighbors, you are not really training anything.
+- No good way to train the K nearest neighbors
+- SCALING SUCKS
+
+- SVM should scale so much better.
+- Work up to Gigabyte worth of data, it can be quite efficient
+- Good for parallel calculations. (Threading)
+- Billions of data points suck!

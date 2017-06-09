@@ -2,6 +2,9 @@ import pandas as pd
 import quandl
 import math
 
+import numpy as np
+from sklearn import preprocessing, cross_validation, svm
+
 # Adj. Close is most likely feature. Not exactly a label
 # Pattern recognition for stock prices
 # For regression, simplify your data as much as possible
