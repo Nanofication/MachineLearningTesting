@@ -1,0 +1,14 @@
+Support Vector Machine
+
+Quite a popular machine learning algorithm. Considered the best
+back in the 90s.
+
+It separates groups into 1 by 1 ... group
+Groups are positive 1 or negative 1. Find best separating hyperplane
+
+SVM can determine the best separating hyperplane out of all
+Once found, you can take in unknown data.
+
+Use to separate 1 from the rest (Binary data)
+So if you have classifications. You identify, separate 1 classification
+from the rest of the classifications
